@@ -1,0 +1,83 @@
+[
+  {
+    "categories": ["man", "coat", "jacket"],
+    "color": ["black"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "Black1.jpeg",
+    "price": 50,
+    "size": ["s", "m"],
+    "Title": "Man Black Jacket"
+  },
+  {
+    "categories": ["man", "coat"],
+    "color": ["black", "lightBlack"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "Black2.jpeg",
+    "price": 60,
+    "size": ["m", "l"],
+    "Title": "Man Light Black Coat"
+  },
+  {
+    "categories": ["man", "coat"],
+    "color": ["Blue"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "BlueJeans.jpeg",
+    "price": 75,
+    "size": ["m", "l", "xl"],
+    "Title": "Man Denim Blue Jacket"
+  },
+  {
+    "categories": ["man", "coat"],
+    "color": ["Blue", "DarkBlue"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "DarkBlue.jpeg",
+    "price": 81,
+    "size": ["l", "xl"],
+    "Title": "Man Blue Coat Full"
+  },
+  {
+    "categories": ["man", "coat"],
+    "color": ["yellow", "darkYellow"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "darkYellow.jpeg",
+    "price": 88,
+    "size": ["m", "l", "xl"],
+    "Title": "Man Yellow Coat"
+  },
+  {
+    "categories": ["man", "coat"],
+    "color": ["green"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "Green.jpeg",
+    "price": 36,
+    "size": ["m", "l"],
+    "Title": "Man Green Coat"
+  },
+  {
+    "categories": ["man", "coat"],
+    "color": ["yellow", "lightYellow"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "LightYellow.jpeg",
+    "price": 45,
+    "size": ["m"],
+    "Title": "Man Light Yellow Coat"
+  },
+  {
+    "categories": ["man", "coat"],
+    "color": ["white"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "White.jpeg",
+    "price": 58,
+    "size": ["m", "l"],
+    "Title": "Man White Coat"
+  },
+  {
+    "categories": ["man", "coat"],
+    "color": ["white"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "WhiteLea.jpeg",
+    "price": 88,
+    "size": ["m", "l"],
+    "Title": "Man White Leather Coat"
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "categories": ["man", "jeans"],
+    "color": ["blue"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "jeans/manBlueJeans.jpg",
+    "price": 52,
+    "size": ["m", "l"],
+    "title": "Man Blue Jeans"
+  },
+  {
+    "categories": ["man", "jeans"],
+    "color": ["blue"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "jeans/manBlueJeans1.jpg",
+    "price": 58,
+    "size": ["m", "l"],
+    "title": "Man Light Blue Jeans"
+  },
+  {
+    "categories": ["man", "jeans"],
+    "color": ["black", "white"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "jeans/manGrayJeans.jpeg",
+    "price": 58,
+    "size": ["m", "l", "xl"],
+    "title": "Man Gray Jeans"
+  },
+  {
+    "categories": ["man", "jeans"],
+    "color": ["blue"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "jeans/manScratchBlueJeans.jpeg",
+    "price": 58,
+    "size": ["m", "l"],
+    "title": "Man Scratches Blue Jeans"
+  },
+  {
+    "categories": ["man", "jeans"],
+    "color": ["white"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "jeans/manWhiteJeans.jpeg",
+    "price": 58,
+    "size": ["l"],
+    "title": "Man White Jeans"
+  },
+  {
+    "categories": ["man", "jeans"],
+    "color": ["yellow"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "jeans/manYellowJeans.jpg",
+    "price": 58,
+    "size": ["l", "xl", "xs", "s"],
+    "title": "Man Yellow Jeans"
+  },
+  {
+    "categories": ["woman", "jeans"],
+    "color": ["black"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "jeans/womanBlackJeans.jpeg",
+    "price": 78,
+    "size": ["l", "xl"],
+    "title": "Woman Black Jeans"
+  },
+  {
+    "categories": ["woman", "jeans"],
+    "color": ["blue"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "jeans/womanBlueJeans.jpg",
+    "price": 87,
+    "size": ["l", "xl", "m"],
+    "title": "Woman Blue Jeans"
+  },
+  {
+    "categories": ["woman", "jeans"],
+    "color": ["blue"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "jeans/womanBlueJeans1.jpg",
+    "price": 60,
+    "size": ["l", "xl", "m"],
+    "title": "Woman Light Blue Jeans"
+  },
+  {
+    "categories": ["woman", "jeans"],
+    "color": ["blue"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "jeans/womanLightBlueJeans.jpg",
+    "price": 47,
+    "size": ["l", "xl", "m"],
+    "title": "Woman sky Blue Jeans"
+  },
+  {
+    "categories": ["woman", "jeans"],
+    "color": ["blue"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "jeans/womanScratchBlueJeans.jpg",
+    "price": 99,
+    "size": ["l", "xl", "m"],
+    "title": "Woman Scratch Blue Jeans"
+  },
+  {
+    "categories": ["woman", "jeans"],
+    "color": ["blue"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "jeans/womanScratchJeans.jpg",
+    "price": 107,
+    "size": ["l", "m"],
+    "title": "Woman Scratch Jeans"
+  },
+  {
+    "categories": ["woman", "jeans"],
+    "color": ["blue"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "jeans/womanSkyBlueJeans.jpeg",
+    "price": 76,
+    "size": ["l", "m"],
+    "title": "Woman Sky Jeans"
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "categories": ["woman"],
+    "color": ["red"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "woman/black.jpg",
+    "price": 32,
+    "size": ["s", "m"],
+    "title": "Dark Red"
+  },
+  {
+    "categories": ["woman"],
+    "color": ["black"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "woman/black1.jpg",
+    "price": 32,
+    "size": ["s", "m", "l", "xl"],
+    "title": "Silver and Black dress"
+  },
+  {
+    "categories": ["woman", "tshirt"],
+    "color": ["black"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "woman/black2.jpg",
+    "price": 25,
+    "size": ["s", "m", "l"],
+    "title": "Black Tshirt"
+  },
+  {
+    "categories": ["woman", "tshirt"],
+    "color": ["black"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "woman/blackTshirt.jpeg",
+    "price": 26,
+    "size": ["s", "m", "l"],
+    "title": "Zara Black Tshirt"
+  },
+  {
+    "categories": ["woman", "tshirt"],
+    "color": ["black"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "woman/blackTshirt.jpg",
+    "price": 40,
+    "size": ["s", "m", "l"],
+    "title": "Cotton Black Tshirt"
+  },
+  {
+    "categories": ["woman", "tshirt"],
+    "color": ["black"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "woman/blackTshirt1.jpg",
+    "price": 37,
+    "size": ["m", "l"],
+    "title": "Hot Black Tshirt"
+  },
+  {
+    "categories": ["woman", "shirt"],
+    "color": ["blue"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "woman/blue.jpeg",
+    "price": 40,
+    "size": ["m"],
+    "title": "Blue shirt"
+  },
+  {
+    "categories": ["woman", "tshirt"],
+    "color": ["blue"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "woman/blue.jpeg",
+    "price": 20,
+    "size": ["m", "l", "s"],
+    "title": "Simple Blue Tshirt"
+  },
+  {
+    "categories": ["woman", "dress"],
+    "color": ["black", "gray", "white"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "woman/gray.jpg",
+    "price": 40,
+    "size": ["m", "l", "s"],
+    "title": "Stylish Gray Dress"
+  },
+  {
+    "categories": ["woman", "dress"],
+    "color": ["gray", "red"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "woman/grayAndRed.jpg",
+    "price": 50,
+    "size": ["m", "l"],
+    "title": "Flower Design Dress"
+  },
+  {
+    "categories": ["woman", "plain"],
+    "color": ["green"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "woman/green.jpg",
+    "price": 35,
+    "size": ["m"],
+    "title": "Plain Female Womens fashion"
+  },
+  {
+    "categories": ["woman", "shirt"],
+    "color": ["green", "yellow", "black", "blue", "red"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "woman/rainbowTshirt.jpeg",
+    "price": 30,
+    "size": ["m", "l"],
+    "title": "Rainbow Female Shirt"
+  },
+  {
+    "categories": ["woman", "dress"],
+    "color": ["red"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "woman/Red.jpg",
+    "price": 45,
+    "size": ["m", "l"],
+    "title": "Female Red Dresses"
+  },
+  {
+    "categories": ["woman"],
+    "color": ["white"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "woman/white.jpg",
+    "price": 20,
+    "size": ["m", "l"],
+    "title": "Cheap stylish women cloths"
+  },
+  {
+    "categories": ["woman", "dress"],
+    "color": ["yellow"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "woman/yellow.jpg",
+    "price": 52,
+    "size": ["m", "l", "xl"],
+    "title": "Simple yellow Dress"
+  },
+  {
+    "categories": ["woman", "dress"],
+    "color": ["yellow", "black"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "woman/yellow.jpg",
+    "price": 40,
+    "size": ["m", "l", "xl"],
+    "title": "Simple yellow and Black Rajasthani Dress"
+  },
+  {
+    "categories": ["woman", "tshirt"],
+    "color": ["yellow", "black"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "woman/yellowTshirt.jpg",
+    "price": 20,
+    "size": ["m", "l", "xl"],
+    "title": "Simple yellow Tshirt"
+  }
+]

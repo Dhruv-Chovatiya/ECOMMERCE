@@ -1,0 +1,65 @@
+[
+  {
+    "categories": ["women", "coat"],
+    "color": ["black"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "coat/woman/Black.jpg",
+    "price": 82,
+    "size": ["s", "m"],
+    "title": "women Black Coat"
+  },
+  {
+    "categories": ["women", "coat"],
+    "color": ["Pink", "DarkPink"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "coat/woman/DarkPink.jpg",
+    "price": 88,
+    "size": ["m", "l", "xl"],
+    "title": "women Dark Pink Coat"
+  },
+  {
+    "categories": ["women", "coat"],
+    "color": ["green"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "coat/woman/green.jpeg",
+    "price": 75,
+    "size": ["m", "xl"],
+    "title": "Women Green Coat Full Size"
+  },
+  {
+    "categories": ["women", "coat"],
+    "color": ["pink"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "coat/woman/pink.jpeg",
+    "price": 78,
+    "size": ["l", "xl"],
+    "title": "women Pink Coat"
+  },
+  {
+    "categories": ["women", "coat"],
+    "color": ["white"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "coat/woman/white.jpg",
+    "price": 48,
+    "size": ["m", "l", "xl"],
+    "title": "women white Coat"
+  },
+  {
+    "categories": ["women", "coat"],
+    "color": ["yellow"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "coat/woman/yellow.jpeg",
+    "price": 36,
+    "size": ["m", "l"],
+    "title": "women Yellow Coat"
+  },
+  {
+    "categories": ["women", "coat"],
+    "color": ["yellow"],
+    "desc": "lorem inspum is dummy text of the plain text",
+    "img": "coat/woman/yellow1.jpg",
+    "price": 53,
+    "size": ["m"],
+    "title": "women Light Yellow Coat"
+  }
+]
