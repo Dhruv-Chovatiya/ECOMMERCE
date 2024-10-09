@@ -45,9 +45,25 @@
 
 # Start the server application
 #CMD ["node", "index.js"]  # Ensure this points to your server's entry point
-FROM node:16 as build
-WORKDIR /app
-COPY package*.json ./
+
+# Use Node.js as the base image
+FROM node:14
+
+# Set the working directory to the client folder
+WORKDIR /app/client
+
+# Copy the client package.json and package-lock.json files
+COPY client/package*.json ./
+
+# Install the client dependencies
 RUN npm install
-COPY . .
-RUN npm run build
+
+# Copy the client source code
+COPY client/ ./
+
+# Expose the port on which the client runs (typically 3000)
+EXPOSE 3000
+
+# Command to run the client (npm start)
+CMD ["npm", "start"]
+
