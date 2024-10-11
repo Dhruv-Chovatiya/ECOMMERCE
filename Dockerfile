@@ -61,7 +61,7 @@
 # Command to start both server and client using concurrently
 #CMD ["npx", "concurrently", "\"npm run start --prefix /app/server\"", "\"npm run start --prefix /app/client\""]
 # Step 1: Build the client
-FROM node:16 AS client-build  # You can also use node:18
+FROM node:16 AS client-build  
 
 # Set working directory for the client
 WORKDIR /app/client
@@ -79,7 +79,7 @@ COPY client/ ./
 RUN npm run build
 
 # Step 2: Set up the server
-FROM node:16 AS server  # You can also use node:18
+FROM node:16 AS server  
 
 # Set working directory for the server
 WORKDIR /app/server
