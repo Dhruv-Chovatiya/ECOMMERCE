@@ -91,44 +91,44 @@ services:
 # Command to start both server and client using concurrently
 #CMD ["npx", "concurrently", "\"npm run start --prefix /app/server\"", "\"npm run start --prefix /app/client\""]
 # Step 1: Build the client
-FROM node:16 AS client-build  
+#FROM node:16 AS client-build  
 
 # Set working directory for the client
-WORKDIR /app/client
+#WORKDIR /app/client
 
 # Copy package.json and package-lock.json
-COPY client/package*.json ./
+#COPY client/package*.json ./
 
 # Install dependencies
-RUN npm install
+#RUN npm install
 
 # Copy the rest of the client code
-COPY client/ ./
+#COPY client/ ./
 
 # Build the client
-RUN npm run build
+#RUN npm run build
 
 # Step 2: Set up the server
-FROM node:16 AS server  
+#FROM node:16 AS server  
 
 # Set working directory for the server
-WORKDIR /app/server
+#WORKDIR /app/server
 
 # Copy server package.json and package-lock.json
-COPY server/package*.json ./
+#COPY server/package*.json ./
 
 # Install server dependencies
-RUN npm install
+#RUN npm install
 
 # Copy the rest of the server code
-COPY server/ ./
+#COPY server/ ./
 
 # Expose both client (3000) and server (5000) ports
-EXPOSE 3000
-EXPOSE 5000
+#EXPOSE 3000
+#EXPOSE 5000
 
 # Copy the built client files into the server's public directory
-COPY --from=client-build /app/client/build ./public
+#COPY --from=client-build /app/client/build ./public
 
 # Command to start both the client and server using concurrently
-CMD ["npx", "concurrently", "\"npm run start --prefix /app/server\"", "\"npm run start --prefix /app/client\""]
+#CMD ["npx", "concurrently", "\"npm run start --prefix /app/server\"", "\"npm run start --prefix /app/client\""]
