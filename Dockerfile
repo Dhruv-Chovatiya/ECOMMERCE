@@ -1,69 +1,62 @@
-# Stage 1: Build the Client Application
-#FROM node:18.16.0 AS build-client
-
-# Set the working directory for the client
-#WORKDIR /app/Client
-
-# Copy package files and install dependencies for the client
-#COPY client/package.json client/package-lock.json ./
-#RUN npm ci  # Install dependencies based on the lock file
-
-# Copy the client source files and build
-#COPY client ./  # Copy all client files
-#RUN npm run build  # Builds the React app for production
-
-# Stage 2: Build the Server Application
-#FROM node:18.16.0 AS build-server
-
-# Set the working directory for the server
-#WORKDIR /app/Server
-
-# Copy package files and install dependencies for the server
-#COPY server/package.json server/package-lock.json ./
-#RUN npm ci  # Install dependencies based on the lock file
-
-# Copy the server source files
-#COPY server ./  # Copy all server files
-
-# Stage 3: Prepare the Production Image
-#FROM node:18.16.0
-
-# Set the working directory for the final image
-#WORKDIR /app
-
-# Copy built client files from build-client stage
-#COPY --from=build-client /app/Client/build ./Client/build  # Adjust if build output path differs
-
-# Copy the server files from build-server stage
-#COPY --from=build-server /app/Server ./
-
-# Install only production dependencies for the server
-#RUN npm ci --only=production
-
-# Expose the ports for the server (adjust if your server runs on a different port)
-#EXPOSE 3000
-
-# Start the server application
-#CMD ["node", "index.js"]  # Ensure this points to your server's entry point
-
 # Use Node.js as the base image
-FROM node:14
+#FROM node:14
 
 # Set the working directory to the client folder
-WORKDIR /app/client
+#WORKDIR /app/client
 
 # Copy the client package.json and package-lock.json files
-COPY client/package*.json ./
+#COPY client/package*.json ./
 
 # Install the client dependencies
-RUN npm install
+#RUN npm install
 
 # Copy the client source code
-COPY client/ ./
+#COPY client/ ./
 
 # Expose the port on which the client runs (typically 3000)
-EXPOSE 3000
+#EXPOSE 3000
 
 # Command to run the client (npm start)
-CMD ["npm", "start"]
+#CMD ["npm", "start"]
 
+# Step 1: Build the client (React App)
+FROM node:14 AS client-build
+
+# Set working directory for the client
+WORKDIR /app/client
+
+# Copy client package.json and package-lock.json
+COPY client/package*.json ./
+
+# Install client dependencies
+RUN npm install
+
+# Copy the rest of the client code
+COPY client/ ./
+
+# Build the client
+RUN npm run build
+
+# Step 2: Set up the server (Node.js API)
+FROM node:14 AS server
+
+# Set working directory for the server
+WORKDIR /app/server
+
+# Copy server package.json and package-lock.json
+COPY server/package*.json ./
+
+# Install server dependencies
+RUN npm install concurrently
+
+# Copy the rest of the server code
+COPY server/ ./
+
+# Copy the built client files from the previous stage into the server's public directory
+COPY --from=client-build /app/client/build ./public
+
+# Expose ports for both client and server
+EXPOSE 3000 5000
+
+# Command to start both server and client using concurrently
+CMD ["npx", "concurrently", "\"npm run start --prefix /app/server\"", "\"npm run start --prefix /app/client\""]
